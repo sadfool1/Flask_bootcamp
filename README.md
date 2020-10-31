@@ -1,2 +1,3 @@
 # Flask_bootcamp
-Udemy Course LEarning materials
+Udemy Course Learning materials
+Copyright (c) 2020 Copyright Holder All Rights Reserved.
