@@ -8,8 +8,43 @@
     <h1> Puppy Adoption Page </h1>
     <h3> Please Enter your information to adopt a puppy and we'll email you back. </h3>
     <p> Please Note: First Name, Last Name, PAssword, and Email are required. </p>
-    <label for="first_name_tag"> First Name:</label>
 
+    <form class="" action="index.html" method="get">
+
+
+    <label for="first_name_tag"> First Name:</label>
     <input id = "first_name_tag" type="text" name="first_name" value="" placeholder = "First Name">
+
+
+    <label for="last_name_tag"> Last Name:</label>
+    <input id = "last_name_tag" type="text" name="last_name" value="" placeholder = "Last Name">
+
+    <p></p>
+
+    <label for="email_tag"> Email:</label>
+    <input id = "email_tag" type="email" name="email" value="" placeholder = "Email">
+
+    <label for="password_tag"> Password:</label>
+    <input id = "password_tag" type="password" name="password" value="" placeholder = "password">
+
+    <p> Are you over the age of 18? </p>
+
+    <label for=" Yes "> Yes: </label>
+    <input type="radio" name="user_choice" value="Yes">
+
+    <label for=" No "> No: </label>
+    <input type="radio" name="user_choice" value="No">
+
+    <p> Do you have a credit card or Paypal? </p>
+    <select name="Credit_Card">
+      <option value="credit_card">Credit card</option>
+      <option value="paypal"> Paypal</option>
+    </select>
+
+    <br><br>
+    
+    <input type="submit" name="" value="Submit Form">
+
+        </form>
   </body>
 </html>
