@@ -1,0 +1,20 @@
+/* front-end web development */
+
+h1{
+  color: blue;
+}
+
+li{
+  color: rgb(30, 50, 0);
+}
+
+p{
+  color: #39bf5d;
+}
+
+h4{
+  color: rgba(13,90, 140, 1)
+  /* rgba where a is alpha
+  shows the transparency of
+  the font*/
+}
