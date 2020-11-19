@@ -1,0 +1,12 @@
+.firstDiv{
+  color: blue;
+}
+
+.secondDiv{
+  color: red;
+  background: grey;
+}
+
+#singledout{ /* hashtag calls the id of the paragraph */
+  color : red;
+}
