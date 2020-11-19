@@ -1,0 +1,25 @@
+/* body{
+  background: url(https://images.unsplash.com/photo-1496483353456-90997957cf99?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=664&q=80);
+  background-repeat: no-repeat;
+} */
+
+div{
+  background: blue;
+  border: orange 10px dashed;
+  /* border-width: 2px solid; /* this is pixel width
+  border-style: solid; */
+}
+
+p {
+  color: yellow;
+  font-size: 12px;
+}
+
+span{
+  background: red;
+  color: black /* font size */
+}
+
+
+/* Can affect the background and borders, font colors
+directly using CSS modules. Can call divs and spans */
