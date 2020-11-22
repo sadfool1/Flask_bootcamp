@@ -1,0 +1,45 @@
+.header {
+  font-family: 'Big Shoulders Stencil Display', cursive;
+  font-size: 35px;
+  text-align: center;
+  border: solid 2px;
+  background-color: lightgray
+
+}
+
+body{
+  background-color: lightgray;
+}
+
+#Purple_font {
+  font-family: 'Big Shoulders Stencil Display', cursive;
+  font-size: 55px;
+  color: purple;
+}
+
+.main {
+  font-family: 'Big Shoulders Stencil Display', cursive;
+  font-size: 40px;
+}
+
+#email-tag {
+  padding: 8px 20px;
+  border: 7px solid blue;
+}
+
+#password-tag {
+  padding: 8px 20px;
+  border: 7px solid blue;
+}
+
+#Log-in-tag {
+  font-size: 25px;
+  border: 7px solid blue;
+}
+
+#Comment {
+  resize: both;
+  height: auto;
+  width: auto;
+  border: 7px solid grey;
+}
