@@ -14,9 +14,16 @@
 ## a Boolean True if their sum is 10, False if their sum is something else.
 
 def check_ten(n1,n2):
+
+    if n1+n2 == 10:
+        return True
+
+    else:
+        return False
     # Code Here
     pass
 
+print (check_ten(4,6))
 
 
 # ## Task 2
@@ -39,6 +46,7 @@ def check_ten_sum(n1,n2):
 
 def first_upper(mystring):
     # Code Here
+    pass
 
 
 
@@ -48,7 +56,6 @@ def first_upper(mystring):
 # If there are less than two chracters, return the string:  "Error".
 # Use this link if you need help/hint.
 # (https://stackoverflow.com/questions/7983820/get-the-last-4-characters-of-a-string)
-
 
 
 def last_two(mystring):
