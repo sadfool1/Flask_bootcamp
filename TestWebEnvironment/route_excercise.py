@@ -9,17 +9,17 @@ def index(): #127.0.0.1:5000
 
 @app.route('/puppy_latin/<name>') #dynamic routing using a variable
 def puppy(name): #name is a variable
-    # Basic dynamic route with a var )in this case, <name> is the puppy name.
 
+    pupname = ''
+
+    #creating this variable shortens the code
     if name[-1] == 'y':
 
-        name = '%s' % (name[:-1]) + ''.join('iful')
-
-        return '<h1> This is a page for {} </h1>'.format(name) #
-
+        pupname = '%s' % (name[:-1]) + ''.join('iful')
     else:
-        name = '%s' % (name) + ''.join('y')
-        return '<h1> This is a page for {} </h1>'.format(name) #upper attribute will uppercase the name
+        pupname = '%s' % (name) + ''.join('y')
+
+    return '<h1> This is a page for {} </h1>'.format(pupname) #upper attribute will uppercase the name
 
 
 
