@@ -1,14 +1,19 @@
-from flask import Flask
+from flask import Flask, render_template
 
 app = Flask (__name__)
 
 @app.route('/') #the key routing is this decorator
 def index(): #127.0.0.1:5000
-    return '<h1> Hello Puppy!! </h1>'
+    name = "Jose"
+    letters = list(name)
+
+    my_friends = {'friend': 'John'}
+    return render_template('basic.html', name = name, letters = letters, my_friends = my_friends)
 
 @app.route('/information') #127.0.0.1:5000/information
 def info():
     return '<h1> Puppies are cute! </h1>'
+
 
 @app.route('/some_page/<name>') #dynamic routing using a variable
 def puppy(name): #name is a variable
