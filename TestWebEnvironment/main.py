@@ -8,11 +8,12 @@ def index(): #127.0.0.1:5000
     letters = list(name)
 
     my_friends = {'friend': 'John'}
-    return render_template('basic.html', name = name, letters = letters, my_friends = my_friends)
+    return render_template('home.html', name = name, letters = letters, my_friends = my_friends)
 
-@app.route('/information') #127.0.0.1:5000/information
-def info():
-    return '<h1> Puppies are cute! </h1>'
+@app.route('/myfriends/<name>') #127.0.0.1:5000/information
+def info(name):
+    return render_template('myfriends.html', name = name)
+
 
 
 @app.route('/some_page/<name>') #dynamic routing using a variable
